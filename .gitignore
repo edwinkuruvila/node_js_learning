@@ -1,7 +1,23 @@
 node_modules/
+get_all.rest
+
+# Environment variables
 .env
 .env.*
 !.env.example
-.DS_Store
-npm-debug.log*
+
+# Generated output
 coverage/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/settings.json
