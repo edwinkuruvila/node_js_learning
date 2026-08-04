@@ -1,4 +1,5 @@
 node_modules/
+.vscode/
 get_all.rest
 
 # Environment variables
@@ -19,5 +20,3 @@ pnpm-debug.log*
 # OS and editor files
 .DS_Store
 .idea/
-.vscode/*
-!.vscode/settings.json
